@@ -1,1 +1,29 @@
-.
+ .A{
+        display : grid;
+        grid-template-columns : repeat(3,1fr);
+        list-style-type: none;
+        margin: 0%;
+        padding: 0%;
+       }
+       .A li{
+        justify-content: start ;
+        background-color: lightblue;
+        
+        text-align: center;
+        padding :10px;
+
+       }
+         .B{
+          display : flex;
+          gap: 10px;
+          background-color: lightgreen;
+          justify-content: space-evenly;
+          list-style-type: none;
+          margin: 0%;
+          padding: 0%;
+         }
+            .B li{
+            background-color: lightgreen;
+            text-align: center;
+            padding :10px;
+            } 
